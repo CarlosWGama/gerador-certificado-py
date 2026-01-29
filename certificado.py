@@ -23,7 +23,7 @@ def gerar_certificado():
         image = Image.open("modelo.png")  
         draw = ImageDraw.Draw(image)  
         font = ImageFont.truetype("arial.ttf", 55)  
-        draw.text((450, 1000), nome.strip(), font=font, fill=(0,0,0,255) ) 
+        draw.text((600, 895), nome.strip(), font=font, fill=(0,0,0,255) ) 
         image.save(DIRETORIO+"{}.png".format(nome.strip()))  
 
       
